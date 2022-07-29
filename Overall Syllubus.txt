@@ -1,0 +1,631 @@
+What is Testing?
+
+To Validate the Functional Behaviour of a business
+
+finding out how well something works
+
+Software testing is a process of verifying or evaluating that a software product or Application Does what it is supposed to do 
+
+
+why
+
+To Prevent the bugs
+Reducing the developement Costs
+Improving the Performance 
+How Far meet the Requirements
+To Measure the Quality
+Missing Requirements	
+To Identify the gaps
+
+Software Developement Life Cycle
+1.Requirement Analysis
+2.Defining the Software
+3.Designing the Software
+4.Developing the Project
+5.Testing
+6.Deployement
+7.Maintainance
+
+
+
+Software Testing Life Cycle
+
+1.Requirement Analysis
+2.Test Planning
+3.Test case Developement
+4.Test Environment Setup
+5.Test execution
+6.Test Closure
+
+
+Lower Environment
+
+DEV-12.2.230.0
+DVV
+UAT
+UAT-staging
+Pre-Prod
+Production-
+
+
+Regression Testing : Checking the Excisting Functionality whether  any impact caused by the New Functionality which is been added or not.
+
+Smoke Testing: Build is fine oe not and whether the functionality is working fine or not?
+
+Adhoc testing: Exploring the Application(without testcase execution)
+
+Sanity Testing: Ensuring that whether the Functionality is working fine,fixation of Previously detected bugs and simultaneously to make sure any 
+sort of minor or major  changes or modifications introduced in the code or functionalitie does not lead any new defect.
+
+
+How to Create a Test Case?
+
+Manditory Fileds
+
+1.Project name
+2.Module Name
+3.Created By
+4.Created date
+5.Reviewed by
+6.Reviewed Date
+7.Test Scenario ID
+8.Test Scenario Description
+9.Test Case iD
+10.Test Case Description
+11.Test steps
+12.Pre Condition
+13.Test Data
+14.Post condition
+15.Actual result
+16.expected Result
+17.Status
+18.Executed By
+19.Executted Date
+20.comments
+
+----------------------------------------
+
+Bug Life Cycle
+
+1.New
+2.Open
+3.Fixed
+4.Pending Request
+5.Retest
+6.Reopen
+7.Reject
+8.Deferred
+9.Duplicate
+10.Not a Bug
+11.Closed
+
+Manditory Fields
+
+1.Build Version
+2.Submitt on
+3.Product
+4.Module
+5.Severity
+6.Priority
+7.Synopsis
+8.Description
+9.Reproduction Steps
+10.Screenshots
+11.Application name
+12.Environment
+13.Test case Attachment
+14.Actual Result
+15.Expected Result
+
+
+Priority
+
+1.Low
+2.Medium
+3.Hgh
+
+Severity
+
+1.Critical
+2.Major
+3.Moderate 
+4.Minor
+5.Cosmetic
+
+Verification
+It is a process of checking the Docs,design,code and the Program in order to check if the Software has been built according to the Requirements or not
+
+Validation
+A Dynamic Mechanism of testing and Validating if the Software Product actually meets the exact needs of the customer or not
+
+
+Difference between Verification and Validation
+
+
+Agile Methodology
+
+Developement and testing -same Phase
+
+
+
+
+Waterfall Methodology
+
+Developement and Testing are different phases
+
+
+
+July Release
+Sprint Planning-3 weeks
+iteration1
+
+Facebook
+
+post
+uploading the pics
+
+iteration2
+story
+
+
+HTTP codes
+
+1.1XX-Informational
+100
+101
+102
+103
+2.2XX-Successful
+200 
+201 
+201 
+203
+204
+205
+206
+207
+208
+3.3XX-Redirection
+300
+301
+302
+303
+304
+305
+306
+307
+308
+4.4XX-Client Error
+400
+401
+402
+403
+404
+408
+410
+5.5XX-Server error
+500
+501
+502
+503
+504
+505
+
+Software Requirement
+
+Types of Requirement:
+
+1.Business Requirement
+2.User Requirement
+3.System Requirement
+1.Functional 
+2.Non-Functional
+
+Mobile App Testing
+
+1.Native App
+2.Mobile Web App
+3.Hybrid App
+
+
+Different Types of Mobile App Testing
+1.Installation Testing
+2.Funtcional testing
+3.Performance tetsing
+4.Power Consumption
+5.Interrupt testing
+6.Usabilty Testing
+7.Compatability Testing
+8.Operational Testing
+9.Service Testing
+
+------------------------------------------------------------
+Static Testing
+
+Examples of Work Documents
+
+1.Required Specifications
+2.Design Document
+3.Source code
+4.Test Plans
+5.Test cases
+6.Test Scripts
+7.User Document
+8.Web Page Content
+
+Techniques :
+
+1.Informal review
+2.Technical Review
+3.Walkthrough
+4.Inspection
+5.Static Code Review
+
+
+Dynamic Testing
+
+1.Unit Testing
+2.Integration Testing
+3.System Testing
+
+
+Difference between the Static and Dynamic
+
+Roles and Responsibilities of Software tester
+
+Testing Constraints
+
+Levels of Testing
+
+1.Unit testing
+2.Integration Testing
+3.System Testing
+4.Acceptance Testing
+
+Test Coverage Matrix
+
+Tracebility matrix or Requirement Tracebility Matrix
+
+API Testing
+
+1. Unit Testing
+2.Functional Testing
+3.Load Testing
+4.Run time error Detection
+5.Security Testing
+6.Web UI Testing
+7.Interoperability Testing
+
+
+1. Test Quality
+2. Test Coverage
+3. Test Reuse
+
+Tools For API testing
+
+1.Soap UI
+2.Run Scope
+3.Smartbear
+4.Eclipse SDK tool-Automated API testing
+5.Curl
+6.CTESK
+7.Microsoft Visual Studio
+8.HP Unified Functional testing tool
+9.IBM Rationsl test workbench
+10.Parasoft SOA test and developement testing platform
+
+
+------------------------------------------------------------------
+REST API -Representational State Transfer
+
+1.Communication
+2.RESTFUL
+
+Key benifits
+
+Simple/Standardized
+Scalable and Stateless
+High Performance and Cache
+
+
+Methods
+
+1.GET-Read
+2.POST-Create
+3.PUT-Update
+4.DEL-Delete
+
+5.Patch
+6.Head
+7.Options
+
+
+
+Postman
+
+Terminologies Related to Postman
+
+HTTP-Hypertext transfer protocol
+
+GET
+POST
+PUT
+PATCH
+HEAD
+DELETE
+OPTIONS
+
+
+WHY use Postman
+
+1.Accessibitiy
+2.Use Collections
+3.Test Developement
+4.Automation Testing
+5.Creating environments
+6.Debugging
+7.Collabaration
+8.Continuous Integration
+
+
+What can you do with POSTMAN
+
+
+Which tools use Postman
+
+HTTP
+SOAP
+REST
+WEBSOCKETS
+GRAPHQL
+
+Quality Assurance
+
+Quality Control
+
+Difference between QA,QC
+
+Cost of Quality
+
+1.Prevention Costs
+2.Detection Costs
+3.Internal Failure cists
+4.External Failure costs
+
+Defect
+Any error in the logic
+by giving wrong input
+any deviation in the customer requirement
+
+
+Bug
+
+Functional errors
+Missing Commands
+Runtim,e errors
+Complilation errors
+Logical Errors
+
+Failure
+
+Human errors
+Environmental Conditions
+the way in which the system is used
+
+Defect Management Process
+
+Automation Testing
+WHat is Automation Tetsing
+Why Automation Testing
+When to Use Automation Testing
+
+which is Suitable
+
+High Risk -Business critical test case
+test cases that are repeatedly Executed
+test cases that are difficult to perform manually
+test cases which are time-consuming
+
+Which are Not-Suitable
+
+Test cAses that are newly designed and not executed amnually atleast once
+Test cases for which the requirements are frequently changing
+Test cases which are executed on ad-hoc basis
+
+
+Automatuion Testing Process
+
+step1: test tool selection
+step2:Define scope of Automation
+step3:Planning,Designing,Developement
+step4:Test Execution
+step5:Maintainance
+
+Benifits
+Automation Tools
+ 
+1.Selenium
+2.Kobiton
+3.Ranorex Studio
+4.ZAPTEST
+5.LAMBDA TEST
+6.PARASOFT
+7.AVO ASSURE
+8.KEYSIGHT EGG PLANT
+9.TESTRIGOR
+10.SUBJECT7
+
+SAFAL
+
+Selenium
+
+1.Selenium IDE
+2.Selenium RC
+3.Selenium Webdriver
+4.Selenium Grid
+
+Advantages of Selenium
+
+Disadvantages
+
+-------------------------------------------------------
+
+Web Services
+Components
+
+SOAP-simple object Access protocol
+UDDI-Universal Description,Discovery and Integration
+WSDL-Web services Description Language
+
+Soap UI 
+Features
+
+Create test suite
+create test case
+create test steps
+
+Aspects
+
+1.Functional testing
+2.Security Testing
+3.Load testing
+  
+4.Protocols and Technologies
+>SOAP-SIMPLE OBJECT ACCESS PROTOCOL
+>WSDL-webservicedefnition language
+>REST-representational state transfer
+>HTTP-hyper text transmission protocol
+>HTTPS-hyper text transmission protocol Secured
+>AMF-action message format
+>JDBC-Java database Connectivity
+>JMS-java messaging service
+
+
+
+5.Integration with other tools
+
+Apache Maven project
+HUDSON
+JUNIT
+Apache-ant
+
+Soap UI can be used to both manual and Automation.
+In Soap UI Properties are available at test case,test suite and Project
+
+Hierarchy in Soap UI Projects
+
+Project>Test Suite>Test Case>Test Step
+
+
+General features
+
+Standalone Application
+Message Assertion
+
+Reporting
+
+WSDL HTML
+
+Soap UI-NG Pro
+
+Supported Languages
+
+1.SOAP
+2.WSDL/WADL
+3.JMS
+4.REST
+5.AMF
+6.JDBC
+7.HTTP
+
+General Features
+
+Standalone Application
+Message Assertion
+Floating License
+WSDL Coverage
+Request/Response Coverage
+Data Source Driven
+Scripting Libraries
+Test Refactoring
+Running Multiple Tests
+Manual test steps
+Unit Reporting
+
+Reporting
+
+Report data export
+WSDL HTML report
+test Suite coverage
+Test case Coverage assertion
+Message Recording Coverage
+
+Test Planning
+Write the test Plan
+Test case design
+Test Execution
+Test reporting
+
+Retesting : It is a type of testing which verifies and validates the rectification of flaws and issues which caused s/w application to fail in a previous test
+Acceptance testing or User acceptance or Beta testing : the testing which will be done by an enduser
+
+
+Testing types....
+
+1.Alpha testing
+2.Ad-hoc testing
+3.Back-end testing
+4.Browser compatability testing
+5.Black box testing
+6.Boundary value testing
+7.End-End testing
+8.Exploratory Testing
+9.Functional testing
+10.Non-Functional testing
+11.Comparision testing
+12.System testing
+13.Retesting
+14.White-box Testing
+
+Testing Types
+
+Functional Testing 
+
+1.Unit testing
+2.Integration
+3.Smoke 
+4.Sanity
+5.Regression
+6.Beta
+
+Non-Functional
+
+1.Performance testing
+2.Load
+3.Stress
+4.Volume 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
